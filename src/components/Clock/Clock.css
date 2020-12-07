@@ -1,0 +1,26 @@
+.Clock {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+}
+
+.clockGroup {
+    display: grid;
+    grid-template-columns: max-content max-content;
+}
+
+.clockTime {
+    font-size: 6rem;
+}
+
+.clockTemperature {
+    font-size: 2rem;
+    align-self: flex-end;
+    padding: 1rem;
+}
+
+.clockDate {
+    font-size: 2rem;;
+}
